@@ -14,7 +14,7 @@
   <circle cx="372" cy="138" r="56" fill="#f6e7b8"/>
   <circle cx="96" cy="96" r="3" fill="#f3ead7"/><circle cx="168" cy="60" r="2" fill="#f3ead7"/>
   <circle cx="70" cy="210" r="2" fill="#f3ead7"/><circle cx="452" cy="300" r="2.5" fill="#f3ead7"/>
-  <text x="246" y="420" text-anchor="middle" font-size="290" font-weight="700" fill="#f3ead7"
-    font-family="Hiragino Mincho ProN, Yu Mincho, YuMincho, Noto Serif CJK JP, Noto Serif JP, serif">狼</text>
-  <rect x="96" y="452" width="300" height="10" rx="5" fill="#c0392b"/>
+  <text x="256" y="408" text-anchor="middle" font-size="200" font-weight="900" fill="#f3ead7" letter-spacing="4"
+    font-family="Noto Serif JP, Hiragino Mincho ProN, Yu Mincho, YuMincho, serif">人狼</text>
+  <rect x="76" y="446" width="360" height="10" rx="5" fill="#c0392b"/>
 </svg>
