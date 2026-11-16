@@ -10,7 +10,9 @@
 - 画面とロジックは `app.js` にまとめて入っている (`core.js` はまだ無い)
 - 記録は `localStorage`。アーティファクトで遊んだ記録は引き継がれない
 - アーティファクトは `manifest.json`・`icon-180.png`・`icon-192.png`・`sw.js` を読み込むのに、中には入っていなかった。
-  取り込むときに作った: アイコンは `icon.svg` から `node make-icon.js icon-180.png:180 icon-192.png:192 icon-512.png:512`、
+  取り込むときに作った: アイコンは `icon.svg` (夜空・月・明朝体の「人狼」) から
+  `ICON_FONT_CSS=<@fontsource/noto-serif-jp の 900.css> node make-icon.js icon-180.png:180 icon-192.png:192 icon-512.png:512`
+  (作業環境に明朝体が無く、指定しないとゴシック体になる。はじめは「狼」1 字だった)、
   `sw.js` はネット優先 (落とし穴の表「直したのに古い画面が出る」)
 - アーティファクトを直してもう一度取り込むときは、取り込みのあとで次の 2 つを付け直す
   - `styles.css`: `html,body` を `height:100vh; position:relative`、`.layer`・`#app`・`#modal` を `position:absolute`
